@@ -1,13 +1,13 @@
 import React from "react";
-import HomePage from "./components/HomePage";
 import { Box } from "@mui/material";
+import NavBar from "./NavBar";
 
-function App() {
+const HomePage = () => {
   return (
     <Box sx={{ height: "100%", width: "100%" }}>
-      <HomePage />
+      <NavBar />
     </Box>
   );
-}
+};
 
-export default App;
+export default HomePage;
